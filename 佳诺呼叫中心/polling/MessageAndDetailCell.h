@@ -1,0 +1,16 @@
+//
+//  MessageAndDetailCell.h
+//  佳诺呼叫中心
+//
+//  Created by jp123 on 2018/2/28.
+//  Copyright © 2018年 jianuohb. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MessageAndDetailCell : UITableViewCell
+
+@property (nonatomic,strong)UILabel *messageLabel;
+@property (nonatomic,strong)UILabel *detailLabel;
+
+@end
