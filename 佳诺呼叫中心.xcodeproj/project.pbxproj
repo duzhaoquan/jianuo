@@ -90,7 +90,6 @@
 		5B5AB1862043DB3200F2DD0E /* FormChoseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5AB1852043DB3200F2DD0E /* FormChoseVC.m */; };
 		5B62098E204F7AEE00AAF657 /* ManyItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B62098D204F7AEE00AAF657 /* ManyItemViewController.m */; };
 		5B620991204FE03C00AAF657 /* UIResponder+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B620990204FE03C00AAF657 /* UIResponder+FirstResponder.m */; };
-		5B645EFA20300CD400D5F7A7 /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B645EF920300CD400D5F7A7 /* BMKLocationKit.framework */; };
 		5B645EFC20300DF800D5F7A7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B645EFB20300DF800D5F7A7 /* CoreLocation.framework */; };
 		5B645EFE20300E2900D5F7A7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B645EFD20300E2900D5F7A7 /* libsqlite3.0.tbd */; };
 		5B645F0020300E4E00D5F7A7 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B645EFF20300E4E00D5F7A7 /* libstdc++.6.0.9.tbd */; };
@@ -224,6 +223,7 @@
 		5BFCF9C31F99E59B00E068B9 /* TaskfollowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCF9C21F99E59A00E068B9 /* TaskfollowVC.m */; };
 		5BFCF9C61F99F02600E068B9 /* StateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCF9C51F99F02600E068B9 /* StateModel.m */; };
 		5BFCF9C91F99F4CF00E068B9 /* TaskFollowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCF9C81F99F4CF00E068B9 /* TaskFollowTableViewCell.m */; };
+		62C13CA420E5CD9D0024FD65 /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C13CA320E5CD9D0024FD65 /* BMKLocationKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -366,7 +366,6 @@
 		5B62098D204F7AEE00AAF657 /* ManyItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManyItemViewController.m; sourceTree = "<group>"; };
 		5B62098F204FE03C00AAF657 /* UIResponder+FirstResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+FirstResponder.h"; sourceTree = "<group>"; };
 		5B620990204FE03C00AAF657 /* UIResponder+FirstResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+FirstResponder.m"; sourceTree = "<group>"; };
-		5B645EF920300CD400D5F7A7 /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMKLocationKit.framework; sourceTree = "<group>"; };
 		5B645EFB20300DF800D5F7A7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5B645EFD20300E2900D5F7A7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		5B645EFF20300E4E00D5F7A7 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
@@ -637,6 +636,7 @@
 		5BFCF9C51F99F02600E068B9 /* StateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateModel.m; sourceTree = "<group>"; };
 		5BFCF9C71F99F4CF00E068B9 /* TaskFollowTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskFollowTableViewCell.h; sourceTree = "<group>"; };
 		5BFCF9C81F99F4CF00E068B9 /* TaskFollowTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskFollowTableViewCell.m; sourceTree = "<group>"; };
+		62C13CA320E5CD9D0024FD65 /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMKLocationKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -651,7 +651,6 @@
 				5B251B931FA043AB00F99AD9 /* Security.framework in Frameworks */,
 				5B251B8F1FA0437A00F99AD9 /* SystemConfiguration.framework in Frameworks */,
 				5B645EFC20300DF800D5F7A7 /* CoreLocation.framework in Frameworks */,
-				5B645EFA20300CD400D5F7A7 /* BMKLocationKit.framework in Frameworks */,
 				5B83BE421FAB0B4C00635DEF /* LocalAuthentication.framework in Frameworks */,
 				5B251B961FA043D800F99AD9 /* UserNotifications.framework in Frameworks */,
 				5B251B941FA043C400F99AD9 /* libz.tbd in Frameworks */,
@@ -662,6 +661,7 @@
 				5B251B8C1FA0432D00F99AD9 /* libresolv.9.tbd in Frameworks */,
 				5B251B8B1FA0431B00F99AD9 /* CFNetwork.framework in Frameworks */,
 				5B251B881FA03FD200F99AD9 /* jcore-ios-1.1.6.a in Frameworks */,
+				62C13CA420E5CD9D0024FD65 /* BMKLocationKit.framework in Frameworks */,
 				5B251B871FA03FD200F99AD9 /* jpush-ios-3.0.7.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -738,13 +738,13 @@
 				5B645EFF20300E4E00D5F7A7 /* libstdc++.6.0.9.tbd */,
 				5B645EFD20300E2900D5F7A7 /* libsqlite3.0.tbd */,
 				5B645EFB20300DF800D5F7A7 /* CoreLocation.framework */,
-				5B645EF920300CD400D5F7A7 /* BMKLocationKit.framework */,
 				5B83BE411FAB0B3500635DEF /* LocalAuthentication.framework */,
 				5B251B8A1FA0423E00F99AD9 /* libresolv.9.tbd */,
 				5B251B681FA027F900F99AD9 /* libresolv.tbd */,
 				5B251B671FA027E000F99AD9 /* UserNotifications.framework */,
 				5B251B661FA027CF00F99AD9 /* AdSupport.framework */,
 				5B251B651FA027C600F99AD9 /* libz.tbd */,
+				62C13CA320E5CD9D0024FD65 /* BMKLocationKit.framework */,
 				5B251B641FA027A900F99AD9 /* Security.framework */,
 				5B251B631FA0279F00F99AD9 /* UIKit.framework */,
 				5B251B621FA0279300F99AD9 /* Foundation.framework */,
@@ -1712,6 +1712,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/佳诺呼叫中心",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/佳诺呼叫中心/Base/PrefixHeader.pch";
@@ -1748,6 +1749,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/佳诺呼叫中心",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/佳诺呼叫中心/Base/PrefixHeader.pch";
