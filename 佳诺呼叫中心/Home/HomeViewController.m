@@ -45,6 +45,7 @@
         _isClient = YES;
     }
     
+    //添加通知。收到推送时更新每个按钮上方的红点数
      [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notificationAction:) name:@"myNotificaton" object:nil];
     
     [self setupUI];
