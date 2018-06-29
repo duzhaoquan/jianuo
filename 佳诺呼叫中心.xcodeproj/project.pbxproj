@@ -223,7 +223,7 @@
 		5BFCF9C31F99E59B00E068B9 /* TaskfollowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCF9C21F99E59A00E068B9 /* TaskfollowVC.m */; };
 		5BFCF9C61F99F02600E068B9 /* StateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCF9C51F99F02600E068B9 /* StateModel.m */; };
 		5BFCF9C91F99F4CF00E068B9 /* TaskFollowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCF9C81F99F4CF00E068B9 /* TaskFollowTableViewCell.m */; };
-		62C13CA420E5CD9D0024FD65 /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C13CA320E5CD9D0024FD65 /* BMKLocationKit.framework */; };
+		62C13CA620E5CEE20024FD65 /* BMKLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C13CA520E5CEE20024FD65 /* BMKLocationKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -636,7 +636,7 @@
 		5BFCF9C51F99F02600E068B9 /* StateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateModel.m; sourceTree = "<group>"; };
 		5BFCF9C71F99F4CF00E068B9 /* TaskFollowTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskFollowTableViewCell.h; sourceTree = "<group>"; };
 		5BFCF9C81F99F4CF00E068B9 /* TaskFollowTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskFollowTableViewCell.m; sourceTree = "<group>"; };
-		62C13CA320E5CD9D0024FD65 /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMKLocationKit.framework; sourceTree = "<group>"; };
+		62C13CA520E5CEE20024FD65 /* BMKLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BMKLocationKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -661,7 +661,7 @@
 				5B251B8C1FA0432D00F99AD9 /* libresolv.9.tbd in Frameworks */,
 				5B251B8B1FA0431B00F99AD9 /* CFNetwork.framework in Frameworks */,
 				5B251B881FA03FD200F99AD9 /* jcore-ios-1.1.6.a in Frameworks */,
-				62C13CA420E5CD9D0024FD65 /* BMKLocationKit.framework in Frameworks */,
+				62C13CA620E5CEE20024FD65 /* BMKLocationKit.framework in Frameworks */,
 				5B251B871FA03FD200F99AD9 /* jpush-ios-3.0.7.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,6 +737,7 @@
 			children = (
 				5B645EFF20300E4E00D5F7A7 /* libstdc++.6.0.9.tbd */,
 				5B645EFD20300E2900D5F7A7 /* libsqlite3.0.tbd */,
+				62C13CA520E5CEE20024FD65 /* BMKLocationKit.framework */,
 				5B645EFB20300DF800D5F7A7 /* CoreLocation.framework */,
 				5B83BE411FAB0B3500635DEF /* LocalAuthentication.framework */,
 				5B251B8A1FA0423E00F99AD9 /* libresolv.9.tbd */,
@@ -744,7 +745,6 @@
 				5B251B671FA027E000F99AD9 /* UserNotifications.framework */,
 				5B251B661FA027CF00F99AD9 /* AdSupport.framework */,
 				5B251B651FA027C600F99AD9 /* libz.tbd */,
-				62C13CA320E5CD9D0024FD65 /* BMKLocationKit.framework */,
 				5B251B641FA027A900F99AD9 /* Security.framework */,
 				5B251B631FA0279F00F99AD9 /* UIKit.framework */,
 				5B251B621FA0279300F99AD9 /* Foundation.framework */,
