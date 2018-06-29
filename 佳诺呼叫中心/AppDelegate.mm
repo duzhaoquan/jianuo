@@ -28,7 +28,7 @@
 
 @implementation AppDelegate
 
-//进入程序加载
+//进入程序加载app
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     
